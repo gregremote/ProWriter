@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ .ose-button { 
+	background-color: #dedede !important;
+color: #000;
+font-size: 11px;
+padding: 3px 9px !important;
+border-radius: 6px;
+display: block;
+font-weight: bold;
+	} 
+	
+	.ose-save-button { padding-right: 0; border: none; outline: none;  display: none; color: #fff;  } 
+.ose-edit-button { padding-right: 0; border: none; outline:none; color: #000; }
+
+.ose-hidden { opacity: 0; }
+
+#ose-form {
+	position: fixed;
+	top:56px;
+	right: 0px;
+	z-index: 999999;
+}
+
+#ose-form-submit {
+	position: fixed;
+	top:56px;
+	right: 0;
+	z-index: 999999;
+}
+
+
+*[contenteditable=true] {
+	/*background-color: rgba(220,220,220,.25) !important;*/
+	box-shadow: inset 0px 0px 20px 24px rgba(0, 0, 0, 0.03);
+-moz-box-shadow: inset 0px 0px 20px 24px rgba(0, 0, 0, 0.03);
+-webkit-box-shadow: inset 0px 0px 20px 24px rgba(0, 0, 0, 0.03);
+	
+}
+
+.ose_quote_box { 
+padding: 10px 0 0 18px; 
+font-family: Lato, sans; 
+position:absolute; 
+display: none; 
+width: 440px;
+height: 65px;
+background-image: url(../images/quote-background.png);
+z-index:99999;
+background-repeat:no-repeat;
+}
+
+.ose_button {
+	display:block;
+width: 45px;
+height: 35px;
+float: left;
+margin:0;
+padding:0;
+cursor:pointer;
+text-align: center;
+background-repeat: no-repeat;
+}
+
+.ose_h1 {
+	background-image:url(../images/h1.png);
+}
+.ose_h2 {
+	background-image:url(../images/h2.png);
+}
+.ose_italic {
+	background-image:url(../images/italic.png);
+}
+.ose_bold {
+	background-image:url(../images/bold.png);
+}
+.ose_image {
+	background-image:url(../images/image.png);
+}
+.ose_embed {
+	background-image:url(../images/embed.png);
+}
+.ose_clear {
+	background-image:url(../images/clear.png);
+}
+.ose_quote {
+	background-image:url(../images/quote.png);
+}
+.ose_link {
+	background-image:url(../images/link.png);
+}
+
+.screen-reader-text {
+	display:none;
+}
+
+.media-modal * {
+	font-family: 'Open Sans',sans !important;
+}
+
+.media-modal .button{
+width:initial;
+
+}
+
+.ose_hidden {
+	background-color:#efefef !important;
+	color: #dedede !important;
+}
+/*
+#wysi-content {
+  border: 1px solid gray;
+  padding: 10px;
+}
+#wysi-content p, span {
+  line-height: 1.5; 
+}*/
